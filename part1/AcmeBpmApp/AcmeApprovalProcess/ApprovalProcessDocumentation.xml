@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="11.1.1.7.0.0.8" fileRevision="20120217"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+    <component name="ApprovalProcess">
+        <topicDocumentations>
+            <topicDocumentation name="ApprovalProcess">
+                <descriptions>
+                    <description locale="en">ApprovalProcess</description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EVT9848731783424">
+                <labels>
+                    <label locale="en">Start</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EVT9848731783562">
+                <labels>
+                    <label locale="en">End</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="ACT9848801887486">
+                <labels>
+                    <label locale="en">Approve Request</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf4"/>
+            <topicDocumentation name="sf6"/>
+        </topicDocumentations>
+    </component>
+</processDocumentation>

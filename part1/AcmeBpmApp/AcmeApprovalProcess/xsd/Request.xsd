@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:tns="http://www.acme.com/schemas/Request"
+            targetNamespace="http://www.acme.com/schemas/Request"
+            elementFormDefault="qualified">
+  <xsd:element name="request">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="departmentId" type="xsd:int"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

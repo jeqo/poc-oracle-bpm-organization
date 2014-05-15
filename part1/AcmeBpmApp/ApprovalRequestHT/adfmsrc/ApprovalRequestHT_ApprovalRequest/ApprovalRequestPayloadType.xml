@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.64.93"
+          id="ApprovalRequestPayloadType"
+          Package="ApprovalRequestHT_ApprovalRequest"
+          BeanClass="ApprovalRequestHT_ApprovalRequest.ApprovalRequestPayloadType"
+          isJavaBased="false">
+  <AccessorAttribute id="request" IsCollection="true"
+                     BeanClass="ApprovalRequestHT_ApprovalRequest.request"
+                     CollectionBeanClass="ApprovalRequestHT_ApprovalRequest.request_request_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Request"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="request"/>
+      <Property Name="targetNamespace"
+                Value="http://www.acme.com/schemas/Request"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>

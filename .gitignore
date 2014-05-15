@@ -1,0 +1,8 @@
+#################
+## JDeveloper
+#################
+
+*.class
+*classes*
+*deploy*
+*temp*

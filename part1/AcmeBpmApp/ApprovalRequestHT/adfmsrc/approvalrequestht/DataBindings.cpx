@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.64.93" id="DataBindings" SeparateXMLFiles="false"
+             Package="approvalrequestht" ClientType="Generic">
+  <pageMap>
+    <page path="/ApprovalRequest_Form.jspx"
+          usageId="approvalrequestht_ApprovalRequest_FormPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="approvalrequestht_ApprovalRequest_FormPageDef"
+          path="approvalrequestht.pageDefs.ApprovalRequest_FormPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="ApprovalRequestHT_ApprovalRequest"
+        path="approvalrequestht.ApprovalRequestHT_ApprovalRequest"/>
+  </dataControlUsages>
+</Application>
