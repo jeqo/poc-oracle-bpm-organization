@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<JLibraryNode nselem="JLibraryNode" class="oracle.jdeveloper.library.JLibraryNode" deployedByDefault="true" xmlns="http://xmlns.oracle.com/jdeveloper/110000jlibrarynode">
+   <classPath>
+      <entries>
+         <Item path="../../../../../oracle/fmw/jdev/11.1.1.7/jdeveloper/soa/lib/commonj.jar" jar-entry=""/>
+         <Item path="../../../../../oracle/fmw/jdev/11.1.1.7/jdeveloper/soa/modules/rulesComponents/adflibRuleDictionaryDC.jar" jar-entry=""/>
+         <Item path="../../../../../oracle/fmw/jdev/11.1.1.7/jdeveloper/soa/modules/composer/soaComposerTemplates.jar" jar-entry=""/>
+         <Item path="../../../../../oracle/fmw/jdev/11.1.1.7/jdeveloper/soa/modules/jrf/jps-internal.jar" jar-entry=""/>
+      </entries>
+   </classPath>
+   <docPath/>
+   <locked>true</locked>
+   <name>ADF Library Dependencies</name>
+   <sourcePath/>
+</JLibraryNode>

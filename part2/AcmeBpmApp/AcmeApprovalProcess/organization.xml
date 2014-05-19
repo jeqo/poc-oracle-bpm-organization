@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="11.1.1.7.0.0.8" fileRevision="20090820"?>
+<ns1:organization xmlns:ns2="http://xmlns.oracle.com/bpm/lpg/peopleQuery" xmlns:ns1="http://xmlns.oracle.com/bpm/organization" xmlns:ns4="http://xmlns.oracle.com/bpel/workflow/task" xmlns:ns3="http://xmlns.oracle.com/bpel/workflow/taskQuery" xmlns:ns5="http://xmlns.oracle.com/bpm/identity">
+    <ns1:updateExistingObjects>true</ns1:updateExistingObjects>
+    <ns1:organizationalUnits>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:organizationalUnitId>
+            <ns1:organizationalUnitName>ACME</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="APPROLE">
+                <ns1:name>AcmeApprovalProcess.Approver</ns1:name>
+                <ns1:memberId>44ab1357-fb0b-45bc-8c9e-1972c1066b37</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>e570efa5-fd09-48ec-8a58-1487f9af8f3f</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>ADMINISTRATION</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>appadmin</ns1:name>
+                <ns1:memberId>3a9f98f5-c747-4773-ac31-f94737bdd7c3</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>eb99de30-9b07-4def-ad25-fee029e5b76a</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>MARKETING</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>appmkt</ns1:name>
+                <ns1:memberId>612a1fcc-43e0-4805-bbf8-9beb6d1e7404</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>3cd394f1-3e02-4c95-b77b-cdee0af48999</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>PURCHASING</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>apppurch</ns1:name>
+                <ns1:memberId>826e8cd5-650d-4330-ba6d-b36e9403eaa1</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>5f6dd162-e9cb-4515-bc63-24193dd146fd</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>HUMAN_RESOURCES</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>apphr</ns1:name>
+                <ns1:memberId>b6773662-1117-4b69-bf58-73ea5f5e7733</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>43cbf065-3a1d-4594-ac04-abbdd64c0050</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>SHIPPING</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>appship</ns1:name>
+                <ns1:memberId>01e00b9c-e34e-4919-8407-7cc1589d2d81</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>1b9677f2-91c7-4b62-a535-948d11b6fde7</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>IT</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>appit</ns1:name>
+                <ns1:memberId>e4ece771-32d6-450b-9969-16ff3a88922e</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>64091936-4763-4f01-b911-4c806d1a466a</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>PUBLIC_RELATIONS</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>apppublic</ns1:name>
+                <ns1:memberId>5f9981fa-8fff-4720-921c-e5760004f56f</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>7dac4fe5-2fe6-4d15-9fc5-320d8cdc6713</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>SALES</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>appsales</ns1:name>
+                <ns1:memberId>79ee481a-ae34-49f6-bbc3-53170f2bb087</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>36ca3b4b-e148-40b3-a30c-efe4e90eb11d</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>EXECUTIVE</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>appexec</ns1:name>
+                <ns1:memberId>7faad10a-d934-429d-8724-c3e066dd188f</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>06428531-8a49-46a4-b1a3-7db503ece561</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>FINANCE</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>appfinance</ns1:name>
+                <ns1:memberId>b795c5b1-fda1-45ac-995b-ed842df5fb70</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+        <ns1:organizationalUnit>
+            <ns1:organizationalUnitId>2fab169f-bb35-45f0-84a2-978d9c813b67</ns1:organizationalUnitId>
+            <ns1:parentOrganizationalUnitId>e0e56e4c-1aa6-4cb5-93c9-c72ce74f4c9a</ns1:parentOrganizationalUnitId>
+            <ns1:parentOrganizationalUnitName>ACME</ns1:parentOrganizationalUnitName>
+            <ns1:organizationalUnitName>ACCOUNTING</ns1:organizationalUnitName>
+            <ns1:description></ns1:description>
+            <ns1:member type="USER">
+                <ns1:name>appaccount</ns1:name>
+                <ns1:memberId>1cc21d40-b34e-4832-bcbe-988ecba0c74b</ns1:memberId>
+            </ns1:member>
+        </ns1:organizationalUnit>
+    </ns1:organizationalUnits>
+    <ns1:applicationRoles>
+        <ns1:applicationRole id="AcmeApprovalProcess.ProcessOwner" isProcessRole="false">
+            <ns5:name>AcmeApprovalProcess.Process Owner</ns5:name>
+            <ns1:processRole id="ProcessOwner" name="Process Owner"/>
+        </ns1:applicationRole>
+        <ns1:applicationRole id="AcmeApprovalProcess.Approver" isProcessRole="true">
+            <ns5:name>AcmeApprovalProcess.Approver</ns5:name>
+            <ns1:member type="GROUP">
+                <ns1:name>approvers</ns1:name>
+            </ns1:member>
+            <ns1:processRole id="Approver" name="Approver"/>
+        </ns1:applicationRole>
+    </ns1:applicationRoles>
+    <ns1:applicationRoleOrgUnitCalendarAssociations/>
+    <ns1:participantPropertiesList/>
+    <ns1:holidayRules/>
+    <ns1:calendarRules/>
+</ns1:organization>
